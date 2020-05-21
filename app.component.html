@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
+  <title>Resume</title>
+</head>
+
+<body>
+  <div class="headtag">
+    <div class="whiteline">
+      <div class="yellowbox">
+        <span class="name">{{name}}</span>
+      </div>
+    </div>
+  </div>
+  <div class="about">
+    <br>{{address}}
+    <hr>
+  </div>
+  <div class="container"><br><br><br>
+    <div class="left">
+      <div class="profile">
+        <div class="icon"><i class="material-icons" style="font-size:60px;">account_circle</i></div>
+        <div class="heading">
+          <h2>{{heading[0].name}}</h2>
+        </div>
+        <div class="content">
+          <p>{{heading[0].content}}</p>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="icon"><i class="material-icons" style="font-size:60px;">description</i></div>
+        <div class="heading">
+          <h2>{{heading[1].name}}</h2>
+        </div>
+        <h3 class="subheading">{{heading[1].subHead[0]}}</h3>
+        <div class="content">
+          <ul>
+            <li>{{heading[1].tech[0]}}</li>
+            <li>{{heading[1].tech[1]}}</li>
+            <li>{{heading[1].tech[2]}}</li>
+            <li>{{heading[1].tech[3]}}</li>
+          </ul>
+        </div>
+        <h3 class="subheading">{{heading[1].subHead[1]}}</h3>
+        <div class="content">
+          <ul>
+            <li>{{heading[1].tech[0]}}</li>
+            <li>{{heading[1].tech[1]}}</li>
+            <li>{{heading[1].tech[2]}}</li>
+            <li>{{heading[1].tech[3]}}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="icon"><i class="material-icons" style="font-size:60px;">work</i></div>
+        <div class="heading">
+          <h2>{{heading[2].name}}</h2>
+        </div>
+        <div class="content">
+          <p><b>{{heading[2].title}}</b>{{heading[2].date}} <br>{{heading[2].place}}</p>
+        </div>
+        <div class="content">
+          <ul>
+            <li>{{heading[2].content[0]}}</li>
+            <li>{{heading[2].content[1]}}</li>
+            <li>{{heading[2].content[2]}}</li>
+            <li>{{heading[2].content[3]}}</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="skills">
+        <div class="icon"><i class="material-icons" style="font-size:60px;">work</i></div>
+        <div class="heading">
+          <h2>{{heading[3].name}}</h2>
+        </div>
+        <div class="content">
+          <p><b>{{heading[3].title}}</b>{{heading[3].date}} <br>{{heading[3].place}}</p>
+        </div>
+        <div class="content">
+          <ul>
+            <li>{{heading[3].content[0]}}</li>
+            <li>{{heading[3].content[1]}}</li>
+            <li>{{heading[3].content[2]}}</li>
+            <li>{{heading[3].content[3]}}</li>
+          </ul>
+        </div>
+      </div>
+      <div class="skills">
+        <div class="icon"><i class="material-icons" style="font-size:60px;">school</i></div>
+        <div class="heading">
+          <h2>{{heading[4].name}}</h2>
+        </div>
+        <div class="content">
+          <p><b>{{heading[4].title}}</b> {{heading[4].date}}<br>{{heading[4].place}}</p>
+        </div>
+        <p class="content">{{heading[4].para}}</p>
+        <div class="content">
+          <ul>
+            <li>{{heading[4].content[0]}}</li>
+            <li> {{heading[4].content[1]}}</li>
+            <li>{{heading[4].content[2]}}</li>
+            <li> {{heading[4].content[3]}}</li>
+            <li>{{heading[4].content[4]}}</li>
+            <li>{{heading[4].content[5]}}</li>
+            <li>{{heading[4].content[6]}}</li>
+            <li> {{heading[4].content[7]}}</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
